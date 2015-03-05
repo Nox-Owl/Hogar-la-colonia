@@ -2,34 +2,40 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8" />
-	<meta description="Hogar Gerontológico La Colonia de mis Abuelos es una institución ubicada en Bogotá que presta servicios de salud a personas de la tercera edad"/>
+	<meta name="description" content="Hogar Gerontológico La Colonia de mis Abuelos es una institución ubicada en Bogotá que presta servicios de salud a personas de la tercera edad"/>
 	<title>Hogar Gerontológico La Colonia de mis Abuelos</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 	<header id="superior">
-		<a href="#" class="lugar">Bogotá - Colombia</a>
-		<a href="#" class="facebook"></a>
-		<a href="#" class="twitter"></a>
-		<a href="#" class="in"></a>
+		<div class="bogota">
+			<a href="#" class="lugar">Bogotá - Colombia</a>
+		</div>
+		<div class="redes">
+			<a href="#" class="facebook">face</a>
+			<a href="#" class="twitter">twe</a>
+			<a href="#" class="in">in</a>
+		</div>
 	</header>
 	<header id="principal">
 		<figure id="logo">
-			<img src="logo.png"/>
+			<img src="images/logo.png"/>
 		</figure>
-		<figure id="info_redes">
-			<img src="info_redes.jpg" />
+		<figure id="informados">
+			<img src="images/informados.png" />
 		</figure>
 		<div id="contacto_superior">
-			<ul class="llamenos">
-				<li>Llámenos</li>
+			<ul>
+				<li><strong>LLÁMENOS</strong></li>
 				<li>Tel: 473 9306 / 310 697 5788 - 313 872 6745</li>
 			</ul>
-			<ul class="contactenos">
-				<li>Contáctenos</li>
+			<ul>
+				<li><strong>CONTÁCTENOS</strong></li>
 				<li>E-mail: hogarlacolonia@hotmail.com</li>
 			</ul>
 		</div>
-		<nav>
+		<nav id="nav_principal">
 			<ul>
 				<li><a href="#">Inicio</a></li>
 				<li><a href="#">Quiénes somos</a></li>
@@ -59,8 +65,31 @@
 		</article>
 	</section>
 	<footer>
-		<p><strong>Powered by Pony</strong></p>
-		<p>Mejorando.la 2014</p>
+		<nav id="nav_secundaria">
+			<ul>
+				<li class="inicio"><a href="#"></a></li>
+				<li class="quienes_somos"><a href="#"></a></li>
+				<li class="servicios"><a href="#"></a></li>
+				<li class="galeria"><a href="#"></a></li>
+				<li class="contacto"><a href="#"></a></li>
+			</ul>
+		</nav>
+		<div id="contacto_inferior">
+			<ul class="contacto">
+				<li>Dirección: Cra 81 C # 24 D - 35 / Modelia Bogotá</li>
+				<li>Telefonos: 473 9306 / 310 697 5788 - 313 872 6745</li>
+				<li>E-mail: hogarlacolonia@hotmail.com</li>
+			</ul>
+			<ul class="redes">
+				<li>SIGANOS EN NUESTRAS REDES SOCIALES</li>
+				<li class="facebook"><a href="#"></a></li>
+				<li class="twitter"><a href="#"></a></li>
+				<li class="in"><a href="#"></a></li>
+			</ul>
+		</div>
+		<div id="barra_inferior">
+			<p>© Copyright 2015, La Colonia de mis Abuelos. | Todos los derechos reservados.</p>
+		</div>
 	</footer>
 </body>
 </html>

@@ -1,0 +1,93 @@
+body
+{
+	background: #FFFFFF;
+	font-family: "Calibri";
+	font-size: 1em;
+}
+#superior 
+{
+	border-top: 5px solid #97A266;
+	background: #3C3C3C;
+	min-height: 36px;
+	position: relative;
+}
+#superior a 
+{
+	color: #EDEDED;
+	font-size: 0.8em;
+	font-weight: normal;
+	text-decoration: none
+}
+#superior .bogota
+{
+	margin: 0.55em 0 0 18%;
+}
+#superior .redes
+{
+	margin: 0.55em 18% 0 0;
+	right: 0;
+	top: 0;
+	position: absolute;
+}
+#principal
+{
+	position: relative;
+}
+#principal #logo
+{
+	margin: 1.5em 0 0 14%;
+}
+#principal #logo img 
+{
+	width: 280px;
+}
+#principal #informados
+{
+	margin: 0 27% 0 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#principal #informados img
+{
+	width: 300px;
+}
+#principal #contacto_superior
+{
+	font-size: 0.8em;
+	margin: 8em 15.5% 0 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#principal #contacto_superior ul
+{
+	margin: 0 3.6em 0 0;
+	list-style: none;
+	display: inline-block;
+}
+#principal #contacto_superior ul li
+{
+	color: #444444;
+	text-decoration: none;
+}
+#principal #nav_principal
+{
+	margin: 10.8em 15% 0 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#principal #nav_principal ul li
+{
+	display: inline-block;
+}
+#principal #nav_principal ul li a
+{
+	font-weight: 600;
+	font-size: 1.04em;
+	padding: 0.15em 0.3em;
+	margin: 0 2em 0 0;
+	color: #4F4F4F;
+	text-decoration: none;
+}
